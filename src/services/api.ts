@@ -1,6 +1,6 @@
 import type { CallDataResponse, CallEntry, ProcessedCallData } from "../types/api"
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "https://script.googleusercontent.com/macros/echo?user_content_key=AehSKLgUnh3PITsfwVifZ5Xyhj8xR_0lfUBStLR-Gm2wyJTMeF94xtsAcyycWAA4FKdEkR7AmtUnIE3QXynTtb_Z071bMjGPXwH-_3LGvEVelICs-A7CJIvFmioSXEwC_oe8vyrRA2GasqOS-ng5NZHbe8TUvuxG-Su3mn4sUBJYzcfSuNdCF6gmJuswoVnNiVvfvYJfVGJrraVCCh4DGhjWZUbB76bgP7IIym86mjoy3dfQLxL5f2sMmpdoJSvYX8KqT4uRQ9IRTOyMjgW9fbcw2IKrXVDyIll7jJ9iAgQ5&lib=MeV5S9pyOlPbhncapkNh6FVHPcoHe_pe8"
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "https://script.google.com/macros/s/AKfycbwxV5MIfx_NtVMCtLJ4pNsRLLJD12RKFHCPHadMpBY1ktA8MemIMSxn1K2vYOjIBIIKQw/exec"
 
 export async function fetchCallData(): Promise<ProcessedCallData[]> {
   try {
